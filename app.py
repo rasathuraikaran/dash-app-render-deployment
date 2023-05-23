@@ -27,7 +27,7 @@ y = data['quality']
 # Split the dat a into training and testing sets (80% training, 20% testing)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state=42)
 # Create an instance of the logistic regression model
-logreg_model = LogisticRegression(max_iter=5000)
+logreg_model = LogisticRegression(max_iter=9999999)
 # Fit the model to the training data
 logreg_model.fit(X_train, y_train)
 
