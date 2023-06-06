@@ -69,7 +69,7 @@ app.layout = html.Div(
     # Wine quality prediction based on input feature values
     html.H3("Wine Quality Prediction"),
     html.Div([
-        html.Label("Fixed Acidity"),
+        html.Label("Fixed Acidityknknknkn"),
         dcc.Input(id='fixed_acidity', type='number', required=True),    
         html.Label("Volatile Acidity"),
         dcc.Input(id='volatile_acidity', type='number', required=True), 
